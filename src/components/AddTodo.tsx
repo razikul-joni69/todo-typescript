@@ -37,7 +37,7 @@ const AddTodo = () => {
                     type="text"
                     name="todo"
                     id=""
-                    placeholder="Add your todo's here"
+                    placeholder="Add todo title"
                 />{" "}
                 <br />
                 <input
@@ -46,7 +46,7 @@ const AddTodo = () => {
                     type="text"
                     name="time"
                     id=""
-                    placeholder="Add your todo's here"
+                    placeholder="Add todo description"
                 />{" "}
                 <br />
                 <button className="btn" onClick={handleClick}>
